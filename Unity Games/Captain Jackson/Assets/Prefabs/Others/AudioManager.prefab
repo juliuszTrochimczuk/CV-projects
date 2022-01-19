@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &743862453173907705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4379722381633875542}
+  - component: {fileID: 2430978739011531821}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4379722381633875542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743862453173907705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2430978739011531821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743862453173907705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376335483c574cd45824bd5a3e952725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EnemyShootBullet
+    clip: {fileID: 8300000, guid: 2f885ca98a38a7646b2b2447e3a07c98, type: 3}
+    volume: 1
+    pitch: 0.65
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: 5b77a71562e29a9419fff79135157462, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: PowerUp
+    clip: {fileID: 8300000, guid: 85775e29a11133546ac1b561366e03f1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: EnemyShootOrb
+    clip: {fileID: 8300000, guid: a2fe04370802f274bb4f947abf20f00f, type: 3}
+    volume: 1
+    pitch: 0.8
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: EnemyDestroy
+    clip: {fileID: 8300000, guid: bada56d6abdb3c342aafd9bb350cfced, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: ClickButton
+    clip: {fileID: 8300000, guid: 95e4333e7313f6045a42ec1c34dcb30c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: PlayerShieldDamage
+    clip: {fileID: 8300000, guid: 9c91360f349b73b42bd053fe711383de, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: 97beedf623cbbe141b8a9c590da46fcc, type: 3}
+    volume: 1
+    pitch: 0.5
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: StartGame
+    clip: {fileID: 8300000, guid: 85da49c6333eac247aeee74588ba970f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: EnemyExplosionOrb
+    clip: {fileID: 8300000, guid: cbc7925d568a21944a7e29b48b762ba5, type: 3}
+    volume: 1
+    pitch: 0.8
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: EnemyOrbExplode
+    clip: {fileID: 8300000, guid: 81868654c51db06449c954295a7395b0, type: 3}
+    volume: 1
+    pitch: 0.5
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: PlayerExplosion
+    clip: {fileID: 8300000, guid: 5da48697d2d8aff40b3fc5d41720aced, type: 3}
+    volume: 1
+    pitch: 0.5
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: MainMusic
+    clip: {fileID: 8300000, guid: 6433bd51de3aad24095c7f6d51c39754, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    AudioGroup: {fileID: -4122431951740555381, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: fee5376a70651e84fad1dc017b915267, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    AudioGroup: {fileID: -4122431951740555381, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: TurboEffect
+    clip: {fileID: 8300000, guid: 2f8b3ffbbfddfba479cde1bf7421baf6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
+  - name: ScoreUp
+    clip: {fileID: 8300000, guid: ae4d97a5f27ed544d86d52de60bb2cc9, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    AudioGroup: {fileID: 1311433030367065261, guid: 062373702d6c4d34b8b2063a2ae37567, type: 2}
+    source: {fileID: 0}
